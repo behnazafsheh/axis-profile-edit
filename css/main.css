@@ -2,7 +2,7 @@
   --bg-color: #14141f;
   --dark-color: rgb(45, 44, 51);
   --gray-color: rgb(122, 122, 122);
-  --darkGray-color:rgb(51, 52, 67);
+  --darkGray-color: rgb(51, 52, 67);
   --black-color: rgb(0, 0, 0);
   --white-color: rgb(250, 248, 255);
   --orange-color: rgb(250, 196, 141);
@@ -13,7 +13,7 @@
   --green-color: rgb(54, 180, 59);
   --aqua-color: rgb(94, 212, 213);
   --pink-color: rgb(254, 244, 239);
-  --purple-color:rgb(162, 77, 218);
+  --purple-color: rgb(162, 77, 218);
 }
 
 * {
@@ -70,7 +70,7 @@ i {
 }
 
 .header-nav-bar {
-  width: 145rem;
+  width: 160rem;
   display: grid;
   grid-template-columns: 1fr 4fr;
   align-items: center;
@@ -229,7 +229,7 @@ i {
 }
 
 .header-profile-image img {
-  width: 50%;
+  width: 60%;
   border-radius: 1rem;
 }
 
@@ -247,7 +247,7 @@ i {
   border-radius: 5rem;
   padding: 0.8rem;
   position: absolute;
-  right: 310px;
+  right: 290px;
   top: 10px;
   display: flex;
   text-align: center;
@@ -312,15 +312,15 @@ i {
 }
 
 .card-detail {
-  width: 30rem;
-  height: 40rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: var(--gray-color);
+  width: 30rem;
+  height: 40rem;
   border-radius: 2rem;
   margin: 2rem;
+  background-color: var(--gray-color);
 }
 
 .card-detail img {
@@ -493,5 +493,121 @@ i {
 .discord-btn i {
   font-size: 1.5rem;
   margin: 0 0.5rem;
+}
+
+.footer {
+  background-color: var(--black-color);
+  margin-top: 5rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo p {
+  color: var(--gray-color);
+  font-size: 1.5rem;
+  margin: 0 3rem;
+}
+
+.footer-logo img {
+  width: 133px;
+  margin: 0 3rem;
+}
+
+.footer-my-account,
+.footer-resources,
+.footer-company {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-my-account h3,
+.footer-resources h3,
+.footer-company h3 {
+  font-size: 3rem;
+  color: var(--white-color);
+}
+
+.footer-my-account li,
+.footer-resources li,
+.footer-company li {
+  color: var(--gray-color);
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3rem;
+}
+
+.subscribe h3 {
+  font-size: 2.5rem;
+  color: var(--white-color);
+  margin: 1rem 0;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid var(--darkGray-color);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.subscribe-form input {
+  width: 100%;
+  height: 65px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.subscribe-form input i {
+  display: flex;
+  flex-direction: row;
+  font-size: 4rem;
+  background-color: var(--gray-color);
+  color: var(--white-color);
+  padding: 2rem;
+  justify-content: flex-end;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.subscribe-form button {
+  box-sizing: border-box;
+  background-color: var(--darkGray-color);
+  width: 30%;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.footer-social-media ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-social-media ul li {
+  margin: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  background-color: var(--darkGray-color);
+}
+
+.footer-social-media ul li:hover {
+  background-color: var(--gray-color);
 }
 /*# sourceMappingURL=main.css.map */

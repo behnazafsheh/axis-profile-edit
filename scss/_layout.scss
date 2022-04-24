@@ -3,10 +3,6 @@
   flex-direction: row;
   text-align: center;
   align-items: center;
-
-  // background-color: #14141f;
-  // border-bottom: 1px solid var(--gray-color);
-  // box-shadow: 0px 0px 10px var(--gray-color);
 }
 .header-nav-bar {
   width: 145rem;
@@ -402,7 +398,7 @@
   border-radius: 2rem;
   border: none;
   &:hover {
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     transform: scale(1.1);
     cursor: pointer;
   }
